@@ -76,12 +76,12 @@ export const DATA = {
 
   work: [
     {
-      company: "Tele Well",
-      href: "instagram.com/telewell7yoga",
+      company: "TeleWell",
+      href: "https://www.linkedin.com/company/telewell7/",
       badges: [],
       location: "Remote",
       title: " Full Stack Developer Intern",
-      logoUrl: "",
+      logoUrl: "/telewell.jpeg",
       start: "Feb 2025",
       end: "Now",
       description:
@@ -93,7 +93,8 @@ export const DATA = {
       href: "https://automatically.cc/",
       location: "Remote",
       title: "Software Development Intern",
-      logoUrl: "",
+      logoUrl:
+        "https://www.automatically.cc/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FautomaticallyLogo.39600f8d.png&w=384&q=75",
       start: "July 2024",
       end: "August 2024",
       description:
@@ -105,7 +106,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Campus Leader",
-      logoUrl: "",
+      logoUrl: "https://codeforgovtech.in/wp-content/uploads/2024/01/logo.webp",
       start: "Nov 2024",
       end: "Now",
       description:
@@ -117,7 +118,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Open Source Mentor - GSSOC 24",
-      logoUrl: "",
+      logoUrl: "https://gssoc.girlscript.tech/GS_logo_Black.svg",
       start: "June 2024",
       end: "August 2024",
       description:
@@ -129,7 +130,7 @@ export const DATA = {
       badges: [],
       location: "SKIT Jaipur, RJ",
       title: "Web Development Team Lead",
-      logoUrl: "",
+      logoUrl: "https://www.skit.ac.in/images/headers/skit_logo.png",
       start: "May 2023",
       end: "December 2023",
       description:
@@ -151,7 +152,8 @@ export const DATA = {
       school: "SS College, Hawaspur, Samastipur",
       href: "",
       degree: "11th & 12th (Science)",
-      logoUrl: "",
+      logoUrl:
+        "https://static.vecteezy.com/system/resources/previews/006/788/494/non_2x/university-college-logo-open-book-symbol-of-knowledge-and-education-university-library-and-school-logotype-template-illustration-vector.jpg",
       start: "2021",
       end: "2019",
     },
@@ -160,7 +162,7 @@ export const DATA = {
     {
       title: "Visit Logger",
       href: "https://visitlogger.aman-raj.xyz/",
-      dates: "",
+      dates: "Feb 2025",
       active: true,
       description:
         "Built a lightweight, real-time website analytics tool with dynamic script generation. Tracks visitor data with minimal setup and provides instant insights.",
@@ -177,9 +179,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      image: "/visitlog.png",
+      video: "",
     },
     {
       title: "Promptly",
@@ -199,17 +200,17 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "",
-          icon: "<Icons.globe className='size-3' />",
+          href: "https://promptly.aman-raj.xyz/",
+          icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "",
-          icon: "<Icons.github className='size-3' />",
+          href: "https://github.com/huamanraj/Promptly",
+          icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: " ",
+      image: "/promptly.png",
+      video: "",
     },
 
     {
@@ -258,8 +259,7 @@ export const DATA = {
           href: "https://buzz-sphere.vercel.app/",
         },
       ],
-      image:
-        "https://img.freepik.com/free-vector/new-message-landing-page-concept_23-2148319402.jpg",
+      image: "/buzz.png",
       video: "",
     },
     {
@@ -280,7 +280,7 @@ export const DATA = {
           href: "https://snapdrop.vercel.app/",
         },
       ],
-      image: "https://snapdrop.vercel.app/assets/logo-CW4s9jSv.png",
+      image: "/snapdrop.png",
       video: "",
     },
     {
@@ -309,8 +309,7 @@ export const DATA = {
           href: "https://quotecanvasai.vercel.app/",
         },
       ],
-      image:
-        "https://img.freepik.com/free-photo/industrial-designer-digital-art_23-2151585281.jpg",
+      image: "/quotecan.png",
       video: "",
     },
     {
@@ -349,8 +348,7 @@ export const DATA = {
           href: "https://www.sharmainteriors.xyz/",
         },
       ],
-      image:
-        "https://img.freepik.com/free-vector/web-hosting-isometric-composition-with-icons-website-windows-buttons-desktop-computer-with-people-vector-illustration_1284-80933.jpg",
+      image: "/sharmaint.png",
       video: "",
     },
   ],
