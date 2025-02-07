@@ -95,8 +95,8 @@ export const DATA = {
       title: "Software Development Intern",
       logoUrl:
         "https://www.automatically.cc/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FautomaticallyLogo.39600f8d.png&w=384&q=75",
-      start: "July 2024",
-      end: "August 2024",
+      start: "Jul 2024",
+      end: "Aug 2024",
       description:
         "Built and deployed backend services using AWS Lambda and API Gateway to manage real-time ride bookings for the Taxio app. Optimized UI responsiveness and integrated APIs for real-time booking updates using Flutter. Designed key UI components in Figma, enhancing app consistency and user experience.",
     },
@@ -119,8 +119,8 @@ export const DATA = {
       location: "Remote",
       title: "Open Source Mentor - GSSOC 24",
       logoUrl: "https://gssoc.girlscript.tech/GS_logo_Black.svg",
-      start: "June 2024",
-      end: "August 2024",
+      start: "Jun 2024",
+      end: "Aug 2024",
       description:
         "Mentored multiple students, reviewed pull requests, conducted regular one-on-one sessions with mentees, and contributed to the success of the GSSoC program by helping students build practical skills and a strong foundation in open source contributions.",
     },
@@ -132,7 +132,7 @@ export const DATA = {
       title: "Web Development Team Lead",
       logoUrl: "https://www.skit.ac.in/images/headers/skit_logo.png",
       start: "May 2023",
-      end: "December 2023",
+      end: "Dec 2023",
       description:
         "Led a team in building scalable web applications using React, Appwrite, and Firebase, integrating secure user authentication and cloud storage. Mentored junior developers, fostering best practices in coding, UI/UX design, and agile workflows to enhance project efficiency and quality.",
     },
