@@ -225,10 +225,12 @@ export const DATA = {
         {
           type: "GitHub",
           href: "https://github.com/yourusername/mind-mosaic",
+          icon: <Icons.github className="size-3" />,
         },
         {
           type: "Live Demo",
           href: "https://mind-mosaic-blogs.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image:
@@ -253,10 +255,12 @@ export const DATA = {
         {
           type: "GitHub",
           href: "https://github.com/huamanraj/BuzzSphere",
+          icon: <Icons.github className="size-3" />,
         },
         {
           type: "Live Demo",
           href: "https://buzz-sphere.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "/buzz.png",
@@ -274,10 +278,12 @@ export const DATA = {
         {
           type: "GitHub",
           href: "https://github.com/huamanraj/SnapDrop",
+          icon: <Icons.github className="size-3" />,
         },
         {
           type: "Live Demo",
           href: "https://snapdrop.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "/snapdrop.png",
@@ -303,10 +309,12 @@ export const DATA = {
         {
           type: "GitHub",
           href: "https://github.com/huamanraj/QuoteCanvasAI",
+          icon: <Icons.github className="size-3" />,
         },
         {
           type: "Live Demo",
           href: "https://quotecanvasai.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "/quotecan.png",
@@ -324,10 +332,12 @@ export const DATA = {
         {
           type: "GitHub",
           href: "https://github.com/huamanraj?tab=repositories&q=readme-gen&type=&language=&sort=",
+          icon: <Icons.github className="size-3" />,
         },
         {
           type: "Live Demo",
           href: "https://githubreadmegenerator.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image:
