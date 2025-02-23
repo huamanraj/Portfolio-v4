@@ -183,8 +183,32 @@ export const DATA = {
       video: "",
     },
     {
+      title: "FitBites",
+      href: "https://fitbites.vercel.app/",
+      dates: "Feb 2025",
+      active: true,
+      description:
+        "Transform Your Health with AI-Powered Nutrition - Your all-in-one solution for personalized diet planning and daily nutrition tracking. Features AI-generated meal plans, calorie tracking, and personalized recommendations based on health goals.",
+      technologies: ["React", "TailwindCSS", "Appwrite", "Gemini API", "PWA"],
+      links: [
+        {
+          type: "Website",
+          href: "https://fitbites.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/huamanraj/FitBites",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/fitbites.png",
+      video: "",
+    },
+
+    {
       title: "Promptly",
-      href: "",
+      href: "https://promptly.aman-raj.xyz/",
       dates: "Feb 2024 - Present",
       active: true,
       description:
