@@ -9,9 +9,9 @@ export const DATA = {
   location: "Jaipur, IN",
   locationLink: "https://www.google.com/maps/place/jaipur",
   description:
-    "Full-Stack Developer and Open-Source Contributor. I thrive on solving problems, building scalable applications, and mentoring others.",
+    "Full-Stack Developer | Freelancer | Open-Source Contributor — I build scalable apps, solve real-world problems, and am open to job opportunities.",
   summary:
-    "I am a passionate full-stack developer pursuing my B.Tech in Computer Science and Engineering at SKIT, Jaipur. With a focus on efficient and scalable web applications, I’ve worked on impactful projects like real-time chat apps and innovative tools such as GitHub README generators. I’ve also contributed to open-source initiatives as a mentor for GSSoC and a Campus Leader for Code4GovTech.",
+    "I&rsquo;m a full-stack developer and open-source contributor pursuing B.Tech in CSE at SKIT, Jaipur. I specialize in building scalable web apps and AI-driven tools. With internship experience and a strong portfolio, I&rsquo;m actively open to freelance projects and remote job opportunities. Let&rsquo;s build something impactful!",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
@@ -82,7 +82,7 @@ export const DATA = {
       title: " Full Stack Developer Intern",
       logoUrl: "/telewell.jpeg",
       start: "Feb 2025",
-      end: "Now",
+      end: "Mar 2025",
       description:
         "Developed the Telewell consultation portal and Telewell Yoga platform. Implemented telemedicine features, including prescription management, video calls, and payment gateway integration. Optimized web application engagement in collaboration with the marketing team. Debugged and enhanced code for performance and scalability.",
     },
@@ -373,7 +373,7 @@ export const DATA = {
       ],
       image: "/snapdrop.png",
       video: "",
-    }
+    },
   ],
   hackathons: [
     {
