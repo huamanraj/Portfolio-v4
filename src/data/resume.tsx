@@ -2,7 +2,6 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 import { BriefcaseBusiness } from "lucide-react";
 
-
 export const DATA = {
   name: "Aman Raj",
   initials: "",
@@ -160,6 +159,38 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Web Builder AI",
+      href: "https://webbuilder.amanraj.me/",
+      dates: "March 2025",
+      active: true,
+      description:
+        "AI-powered website builder that generates HTML, CSS, and JS code using the Perplexity API. Features include live preview, in-browser code editing with Monaco Editor, JWT auth, and ZIP file download.",
+      technologies: [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT",
+        "Monaco Editor",
+        "TailwindCSS",
+        "JSZip",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://webbuilder.amanraj.me/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/huamanraj/WebBuilderAI",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/webbuilder.png",
+      video: "",
+    },
+    {
       title: "Visit Logger",
       href: "https://visitlogger.aman-raj.xyz/",
       dates: "Feb 2025",
@@ -203,6 +234,36 @@ export const DATA = {
         },
       ],
       image: "/fitbites.png",
+      video: "",
+    },
+    {
+      title: "README Generator",
+      href: "https://readmegenerator.amanraj.me/",
+      dates: "April 2025",
+      active: true,
+      description:
+        "AI-powered GitHub README generator using Gemini API. Allows users to create highly customizable, professional README files tailored to their projects with ease.",
+      technologies: [
+        "React",
+        "Node.js",
+        "Express",
+        "Gemini API",
+        "TailwindCSS",
+        "JWT",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://readmegenerator.amanraj.me/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/huamanraj/README-Generator-v2",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/readmegenerator.png",
       video: "",
     },
 
@@ -312,79 +373,7 @@ export const DATA = {
       ],
       image: "/snapdrop.png",
       video: "",
-    },
-    {
-      title: "QuoteCanvas AI",
-      href: "https://quotecanvasai.vercel.app/",
-      dates: "Ongoing",
-      active: true,
-      description:
-        "A customizable AI-powered quote image creator for social media posts.",
-      technologies: [
-        "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Tailwind CSS",
-        "Vite",
-        "Google Gemini API",
-      ],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/huamanraj/QuoteCanvasAI",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Live Demo",
-          href: "https://quotecanvasai.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/quotecan.png",
-      video: "",
-    },
-    {
-      title: "AI GitHub README Generator",
-      href: "https://githubreadmegenerator.vercel.app/",
-      dates: "Ongoing",
-      active: true,
-      description:
-        "An AI-powered GitHub README generator using OpenAI API to create professional README files.",
-      technologies: ["React.js", "Node.js", "Express.js", "OpenAI API"],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/huamanraj?tab=repositories&q=readme-gen&type=&language=&sort=",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Live Demo",
-          href: "https://githubreadmegenerator.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image:
-        "https://kinsta.com/wp-content/uploads/2018/04/what-is-github-1-1.png",
-      video: "",
-    },
-    {
-      title: "Sharma Interior Website",
-      href: "https://www.sharmainteriors.xyz/",
-      dates: "Ongoing",
-      active: true,
-      description:
-        "A Next.js and Framer Motion webpage for Sharma Interiors, a small interior design company.",
-      technologies: ["Next.js", "Framer Motion", "Email.js", "Tailwind CSS"],
-      links: [
-        {
-          type: "Live Demo",
-          href: "https://www.sharmainteriors.xyz/",
-        },
-      ],
-      image: "/sharmaint.png",
-      video: "",
-    },
+    }
   ],
   hackathons: [
     {
