@@ -59,7 +59,7 @@ export const DATA = {
       },
       Youtube: {
         name: "Instagram",
-        url: "https://www.instagram.com/https.amanraj",
+        url: "https://www.instagram.com/amanraj.me",
         icon: Icons.youtube,
         navbar: true,
       },
@@ -158,6 +158,67 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "HOODZ - The Hoodie Shop",
+      href: "https://hoodz.vercel.app/",
+      dates: "May 2025",
+      active: true,
+      description:
+        "Modern e-commerce platform focused on premium hoodies and streetwear. Built with React and TypeScript for a clean UI, and powered by a Node.js backend to deliver a smooth and stylish shopping experience.",
+      technologies: [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://hoodz.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/huamanraj/Hoodz-the_hoodie_shop",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/hoodz.png",
+      video: "",
+    },
+    {
+      title: "RentEasy",
+      href: "https://renteasily.vercel.app/",
+      dates: "April 2025",
+      active: true,
+      description:
+        "Modern, responsive rental property platform inspired by Airbnb. Users can browse and list properties with filters, reviews, and galleries. Built with Appwrite for backend, and includes animations, geolocation, and a clean dashboard UI.",
+      technologies: [
+        "React",
+        "Vite",
+        "TailwindCSS",
+        "Framer Motion",
+        "Lucide React",
+        "Appwrite",
+        "Geolocation API",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://renteasily.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/huamanraj/RentEasy",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/renteasy.png",
+      video: "",
+    },
     {
       title: "Web Builder AI",
       href: "https://webbuilder.amanraj.me/",
@@ -298,82 +359,6 @@ export const DATA = {
       video: "",
     },
 
-    {
-      title: "Mind Mosaic",
-      href: "https://mind-mosaic-blogs.vercel.app/",
-      dates: "Ongoing",
-      active: true,
-      description:
-        "A comprehensive blogging platform integrating React and Appwrite. Features modern UI components, user authentication, and a rich text editor for blog management.",
-      technologies: ["React", "Redux", "Appwrite", "tinyMCE", "Tailwind CSS"],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/yourusername/mind-mosaic",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Live Demo",
-          href: "https://mind-mosaic-blogs.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image:
-        "https://img.freepik.com/free-vector/blogging-illustration-concept_114360-788.jpg",
-      video: "",
-    },
-    {
-      title: "BuzzSphere",
-      href: "https://buzz-sphere.vercel.app/",
-      dates: "Ongoing",
-      active: true,
-      description:
-        "A multi-user chat platform with real-time messaging, password-protected rooms, emoji support, and chat history loading.",
-      technologies: [
-        "React",
-        "Appwrite",
-        "Appwrite Realtime",
-        "Tailwind CSS",
-        "Vite",
-      ],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/huamanraj/BuzzSphere",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Live Demo",
-          href: "https://buzz-sphere.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/buzz.png",
-      video: "",
-    },
-    {
-      title: "SnapDrop",
-      href: "https://snapdrop.vercel.app/",
-      dates: "Ongoing",
-      active: true,
-      description:
-        "A modern and secure file-sharing web app with customizable expiry and short links.",
-      technologies: ["React", "Appwrite", "Tailwind CSS", "Vite"],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/huamanraj/SnapDrop",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Live Demo",
-          href: "https://snapdrop.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/snapdrop.png",
-      video: "",
-    },
   ],
   hackathons: [
     {
