@@ -9,9 +9,9 @@ export const DATA = {
   location: "Jaipur, IN",
   locationLink: "https://www.google.com/maps/place/jaipur",
   description:
-    "Full-Stack Developer | Freelancer | Open-Source Contributor — I build scalable apps, solve real-world problems, and am open to job opportunities.",
+    "Full-Stack Developer & Independent Freelancer — Crafting elegant web solutions with modern technologies. Available for freelance projects and remote collaborations.",
   summary:
-    "I&rsquo;m a full-stack developer and open-source contributor pursuing B.Tech in CSE at SKIT, Jaipur. I specialize in building scalable web apps and AI-driven tools. With internship experience and a strong portfolio, I&rsquo;m actively open to freelance projects and remote job opportunities. Let&rsquo;s build something impactful!",
+    "Expert full-stack developer with a proven track record of delivering high-quality web applications. Specializing in React, Next.js, and modern cloud technologies. I help businesses and startups bring their ideas to life through clean code and thoughtful design. Let's create something amazing together!",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
@@ -172,6 +172,7 @@ export const DATA = {
         "Express",
         "MongoDB",
         "TailwindCSS",
+        "Razorpay"
       ],
       links: [
         {
@@ -197,10 +198,8 @@ export const DATA = {
         "Modern, responsive rental property platform inspired by Airbnb. Users can browse and list properties with filters, reviews, and galleries. Built with Appwrite for backend, and includes animations, geolocation, and a clean dashboard UI.",
       technologies: [
         "React",
-        "Vite",
         "TailwindCSS",
         "Framer Motion",
-        "Lucide React",
         "Appwrite",
         "Geolocation API",
       ],
@@ -358,7 +357,6 @@ export const DATA = {
       image: "/promptly.png",
       video: "",
     },
-
   ],
   hackathons: [
     {

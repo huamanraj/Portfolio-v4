@@ -25,14 +25,22 @@ export const metadata: Metadata = {
     default: DATA.name,
     template: `%s | ${DATA.name}`,
   },
-  description: DATA.description,
+  description: "I'm Aman 👋 Full-Stack Developer | Freelancer — I build scalable web applications and solve real-world problems. Currently available for freelance projects and remote job opportunities.",
   openGraph: {
-    title: `${DATA.name}`,
-    description: DATA.description,
+    title: `${DATA.name} | Full-Stack Developer & Freelancer`,
+    description: "I'm Aman 👋 Full-Stack Developer | Freelancer — I build scalable web applications and solve real-world problems. Currently available for freelance projects and remote job opportunities.",
     url: DATA.url,
     siteName: `${DATA.name}`,
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: '/og.png',
+        width: 1200,
+        height: 630,
+        alt: `${DATA.name} - Full-Stack Developer & Freelancer`,
+      }
+    ],
   },
   robots: {
     index: true,
@@ -46,13 +54,20 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: `${DATA.name}`,
+    title: `${DATA.name} | Full-Stack Developer & Freelancer`,
     card: "summary_large_image",
+    description: "I'm Aman 👋 Full-Stack Developer | Freelancer — I build scalable web applications and solve real-world problems.",
+    images: ['/og.png'],
   },
   verification: {
     google: "",
     yandex: "",
   },
+  alternates: {
+    canonical: DATA.url,
+  },
+  authors: [{ name: DATA.name, url: DATA.url }],
+  keywords: ["Full-Stack Developer", "Freelancer", "Web Developer", "React Developer", "NextJS Developer", "Frontend Developer", "Backend Developer", "JavaScript Developer", "Aman Raj", "Software Engineer", "Freelance Developer"],
 };
 
 export default function RootLayout({
